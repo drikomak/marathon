@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "backend": "cd ../backend && python main.py",
+    "dev:all": "concurrently \"npm run dev\" \"npm run backend\""
+  }
+} 
